@@ -1,0 +1,53 @@
+/*common start*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400px;
+	color: #898989;
+}
+/*common end*/
+/*header start*/
+header{
+	background-color: #fcdb00;
+}
+.container{
+	margin: 0 auto;
+	width: 75%;
+	overflow: hidden;
+	/*border: 1px solid ;*/
+}
+.logo{
+	width: 12%;
+	float: left;
+	/*border: 1px solid red;*/
+}
+.logo a{}
+.logo a img{
+	width: 100%;
+}
+.menu{
+	float: right;
+	width: 70%;
+	/*border: 1px solid red;*/
+}
+.menu ul{
+
+	float: right;    
+	list-style: none;
+}
+.menu ul li{
+	    float: left;
+}
+.menu ul li a {
+	margin: 0 100px;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+	color: black;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+/*header end*/
